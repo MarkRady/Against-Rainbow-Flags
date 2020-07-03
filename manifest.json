@@ -19,6 +19,17 @@
   },
   "manifest_version": 2,
   "web_accessible_resources" : [ 
-    "images/*.png" 
-  ]
+    "images/*.png",
+    "images/icons/*.png"
+  ],
+  "page_action": {
+    "default_icon": {
+      "16": "images/icons/favicon-16x16.png",
+      "32": "images/icons/favicon-32x32.png",
+      "57": "images/icons/apple-icon-57x57.png",
+      "48": "images/icons/apple-icon-57x57.png",
+      "128": "images/icons/apple-icon-120x120.png",
+      "120": "images/icons/apple-icon-120x120.png"
+    }
+  }
 }
